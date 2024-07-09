@@ -1,0 +1,101 @@
+body{
+    background: rgb(24, 23, 23);
+}
+
+/* DEBUT DU HEADER */
+header{
+    background-color: #fff;
+    padding: 0 10rem;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+header span{
+    color: black;
+    font-weight: bolder;
+}
+header .nav a{
+    color: black;
+    font-weight: bolder;
+}
+/* FIN DU HEADER */
+
+
+
+/* DEBUT SECTION HEROS */
+.hero{
+    width: 100%;
+    position: relative;
+    background-image: url("IMAGES/avion1.avif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    /* top: -2rem; */
+    z-index: -2;
+}
+.hero .infoHero{
+    position: absolute;
+    top: 20%;
+    left: 36%;
+}
+.hero .infoHero h2{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.hero .infoHero p{
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+
+
+/* DEBUT DESIGN IMAGE AGENCE */
+.album{
+    margin: 4rem 0;
+}
+
+.container .btn-group button{
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bolder;
+    width: 100%;
+}
+/* FIN DESIGN IMAGE */
+
+
+/* DEBUT DESIGN ACCORDEON */
+.titlePricing h2{
+    text-align: center;
+    color: blue;
+    font-weight: bolder;
+    margin: 8rem 0 4rem 0;
+}
+
+/* DEBUT CONTACT FORM */
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10% 5% 10%;
+}
+.form input{
+
+}
+.form h2{
+    text-align: center;
+    color: blue;
+    font-weight: bolder;
+    padding-bottom: 2rem;
+    margin-top: 5rem;
+}
+.form button{
+    margin-top: 1rem;
+}
+
+/* DEBUT FOOTER */
+.container{
+    margin-top: 4rem;
+}
